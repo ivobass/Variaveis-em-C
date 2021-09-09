@@ -1,8 +1,10 @@
 #include <stdio.h>
 // livreria de entrada e saida é obrigatorio para um programa basico em C
+
 #include <locale.h>
 
 void main() {
+
     //permite utilizar acentos
     setlocale(LC_ALL,"");
     // Imprime ola
@@ -20,11 +22,15 @@ void main() {
     printf("O valor de b é %f \n",b);
     scanf("%f", &b);
     printf("O valor de a mudou para %f \n" ,b);
+
     // trabalhando com caracteres
     char c = 't';
     printf("O valor de c é %c \n",c);
+
     //limpar o buffer da entrada principal
     fflush(stdin);
+
+    // mudar o valor de varievel de caracter
     scanf("%c", &c);
     printf("O valor de c mudou para %c \n" ,c);
 
