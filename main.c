@@ -6,7 +6,7 @@ void main() {
     //permite utilizar acentos
     setlocale(LC_ALL,"");
     // Imprime ola
-    printf("óla\n");
+    printf("Óla\n");
 
     // trabalhando com variaveis inteiras
 
